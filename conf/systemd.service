@@ -12,6 +12,7 @@ Group=www-data
 
 # Run the Node.js application
 ExecStart=__NODEJS_DIR__/node .output/server/index.mjs
+Environment=PORT=3002
 
 # Keep the service running
 Restart=always
