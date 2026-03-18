@@ -4,7 +4,7 @@ name = "Solifloute"
 description.en = "Isomorphic video and photo blurring system made by the French student union Solidaires Étudiant-e-s"
 description.fr = "Système de floutage vidéo et photo isomorphe créé par le syndicat Solidaires Étudiant-e-s"
 
-version = "1~ynh1"
+version = "1~ynh2"
 
 maintainers = ["ebanDev"]
 
