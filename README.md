@@ -1,12 +1,12 @@
 <h1>
-  Solivote, packaged for YunoHost
+  Solifloute, packaged for YunoHost
 </h1>
 
-Solivote is a voting system made by the French student union [Solidaires Étudiant-e-s](https://solidaires-etudiant-e-s.org/site/). It uses Nuxt as its main framework.
+Solifloute is an isomorphic photo and video blur app made by the French student union [Solidaires Étudiant-e-s](https://solidaires-etudiant-e-s.org/site/). It uses Nuxt as its main framework.
 
 ## 📦 Developer info
 
-🛠️ Upstream Solivote repository: <https://github.com/Solidaires-Etudiant-e-s/Solivote>
+🛠️ Upstream Solifloute repository: <https://github.com/Solidaires-Etudiant-e-s/Solifloute>
 
 ### 📚 App packaging documentation
 
