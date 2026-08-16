@@ -14,6 +14,10 @@ Group=www-data
 ExecStart=__NODEJS_DIR__/node .output/server/index.mjs
 Environment=PORT=3002
 
+# Load per-install runtime configuration (secret keys, processing limits).
+# The leading '-' means startup still succeeds if the file is absent.
+EnvironmentFile=-__INSTALL_DIR__/.env
+
 # Keep the service running
 Restart=always
 

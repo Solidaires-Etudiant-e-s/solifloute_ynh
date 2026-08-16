@@ -15,6 +15,13 @@ ynh_script_progression "Upgrading system configurations related to $app..."
 ynh_config_add_nginx
 
 #=================================================
+# UPDATE SOURCE
+#=================================================
+ynh_script_progression "Updating source files..."
+
+ynh_setup_source --dest_dir="$install_dir"
+
+#=================================================
 # REBUILDING THE APPLICATION
 #=================================================
 ynh_script_progression "Rebuilding $app..."
