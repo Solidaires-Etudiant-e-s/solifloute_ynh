@@ -4,7 +4,7 @@ name = "Solifloute"
 description.en = "Isomorphic video and photo blurring system made by the French student union Solidaires Étudiant-e-s"
 description.fr = "Système de floutage vidéo et photo isomorphe créé par le syndicat Solidaires Étudiant-e-s"
 
-version = "3.0.2~ynh1"
+version = "3.1.0~ynh1"
 
 maintainers = ["ebanDev"]
 
@@ -34,8 +34,8 @@ ram.runtime = "512M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://github.com/Solidaires-Etudiant-e-s/solifloute/archive/refs/tags/v3.0.2.tar.gz"
-    sha256 = "485d5ecd402fa900d4f20c282ebea5a573ab79175a1ac133b91a55a66438b3b8"
+    url = "https://github.com/Solidaires-Etudiant-e-s/solifloute/archive/refs/tags/v3.1.0.tar.gz"
+    sha256 = "158c6ed5e7f1fa0ae5dcedd3fb543c6c922ab2b4651caf5e16b0408cc7dc7778"
     autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
